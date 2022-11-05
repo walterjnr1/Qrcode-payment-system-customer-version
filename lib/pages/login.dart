@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:qr_code_payment_system/UI_Model/Theme.dart';
+import 'package:customer_version_qrcode_payment_system/UI_Model/Theme.dart';
 import 'package:flutter/material.dart';
-import 'package:qr_code_payment_system/pages/register.dart';
+import 'package:customer_version_qrcode_payment_system/pages/register.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../model/customer.dart';
 import 'dashboard.dart';
@@ -120,8 +120,6 @@ class _LoginState extends State<Login> {
                                                 color: ArgonColors.text,
                                                 fontSize: 16.0)),
                                       )),
-
-                                  // Divider()
                                 ],
                               )),
                           Container(

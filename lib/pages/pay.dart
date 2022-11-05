@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
-import 'package:qr_code_payment_system/pages/payment-success.dart';
+import 'package:customer_version_qrcode_payment_system/pages/payment-success.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../model/customer.dart';
@@ -14,10 +14,6 @@ class Pay extends StatefulWidget {
 }
 
 class _PayState extends State<Pay> {
-
-  void printArray (event){
-
-  }
 
   final GlobalKey _gLobalkey = GlobalKey();
   QRViewController? controller;

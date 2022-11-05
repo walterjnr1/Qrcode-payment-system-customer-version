@@ -1,6 +1,6 @@
 {
-    "name": "qr_code_payment_system",
-    "short_name": "qr_code_payment_system",
+    "name": "customer_version_qrcode_payment_system",
+    "short_name": "customer_version_qrcode_payment_system",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

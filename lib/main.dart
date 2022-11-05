@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qr_code_payment_system/pages/welcome.dart';
+import 'package:customer_version_qrcode_payment_system/pages/welcome.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
 

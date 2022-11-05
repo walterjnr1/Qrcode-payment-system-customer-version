@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutterwave_standard/flutterwave.dart';
 import 'package:flutterwave_standard/models/subaccount.dart';
-import 'package:qr_code_payment_system/pages/dashboard.dart';
+import 'package:customer_version_qrcode_payment_system/pages/dashboard.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
 import 'dart:async';

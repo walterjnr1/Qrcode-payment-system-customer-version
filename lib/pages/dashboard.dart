@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:qr_code_payment_system/pages/pay.dart';
-import 'package:qr_code_payment_system/pages/paymenthistory.dart';
-import 'package:qr_code_payment_system/pages/profile.dart';
-import 'package:qr_code_payment_system/pages/register.dart';
+import 'package:customer_version_qrcode_payment_system/pages/pay.dart';
+import 'package:customer_version_qrcode_payment_system/pages/paymenthistory.dart';
+import 'package:customer_version_qrcode_payment_system/pages/profile.dart';
+import 'package:customer_version_qrcode_payment_system/pages/register.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../model/customer.dart';
 import '../widgets/slider.dart';
-import 'package:qr_code_payment_system/pages/fundwallet.dart';
+import 'package:customer_version_qrcode_payment_system/pages/fundwallet.dart';
 import 'login.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -99,7 +99,6 @@ class _DashboardState extends State<Dashboard> {
                 ),
                 decoration: const BoxDecoration(
                   color: Colors.deepOrangeAccent,
-
                 ),
               ),
 

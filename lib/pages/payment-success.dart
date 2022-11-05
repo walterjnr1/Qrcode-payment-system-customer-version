@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qr_code_payment_system/pages/dashboard.dart';
+import 'package:customer_version_qrcode_payment_system/pages/dashboard.dart';
 import 'dashboard.dart';
 
 

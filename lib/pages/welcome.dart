@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:qr_code_payment_system/pages/dashboard.dart';
-import 'package:qr_code_payment_system/pages/login.dart';
+import 'package:customer_version_qrcode_payment_system/pages/dashboard.dart';
+import 'package:customer_version_qrcode_payment_system/pages/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'dashboard.dart';
+
 class WelcomeScreen extends StatefulWidget {
   const   WelcomeScreen({Key? key}) : super(key: key);
 
